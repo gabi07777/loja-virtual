@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: white;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+}
+
+.my-store {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 4rem;
+    color: rgb(13, 13, 82);
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: rgb(80, 80, 100);
+    margin-top: 0.5rem;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    background-color: rgb(243, 216, 243);
+    width: 500px;
+    max-width: 100%;
+    padding: 2rem;
+    border: 2px solid rgb(13, 13, 82);
+    border-radius: 2rem;
+}
+
+.questions div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Organização dos radios */
+.radio-option {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radio-option input {
+    width: auto;
+}
+
+.questions input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.questions input[type="radio"] {
+    margin-right: 0.3rem;
+}
+
+.questions button {
+    padding: 1rem;
+    background-color: rgb(13, 13, 82);
+    color: white;
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.questions button:hover {
+    background-color: rgb(40, 40, 130);
+}
+
